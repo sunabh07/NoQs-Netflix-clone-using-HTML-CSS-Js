@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    
+}
+.waystowatch-header{
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    background-color: #fff;
+}
+.waystowatch-logo{
+    position: sticky;
+    left: 20px;
+}
+.waystowatch-links{
+    position: sticky;
+    right: 100px;
+}
+.waystowatch-links a{
+    padding: 0px 24px;
+    text-decoration: none;
+    color:  white;
+    background-color:  #db0001;
+    border: 2px solid ;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/*                        Section          */
+
+.waystowatch-section{
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('netflixwaystowatch.jpeg');
+      /* filter: brightness(0.5); */
+      height: 300px;
+
+}
+.waystowatch-backimg h1{
+   position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    top: 70px;
+    width: 40%;
+    left: 30%;
+    /* filter: brightness(1); */
+
+}
+
+
+/*               FEATURESSS          */
+
+.waystowatch-list{
+/* display: flex;
+flex-direction: column; */
+padding: 0px 30px;
+}
+.waystowatch-list ul{
+display: flex;
+/* padding: 20px 20px; */
+
+}
+.waystowatch-list li{
+border: 2px solid white ;
+font-size: 27px;
+text-align: center;
+font-weight: 500;
+padding: 20px 20px;
+list-style: none;
+box-shadow: 6px 12px #db0001;  
+}
+.waystowatch-footer{
+position: relative;
+top: 12px;
+height: 200px;
+background: linear-gradient(rgba(0,0,0.7,0.6),rgba(0,0,0.7,0.6)),url('https://devices.netflix.com/images/device-panel-background2.jpg');
+padding: 30px 40px;
+}
+.waystowatch-footer p{
+font-size: 20px;
+position: relative;
+color: #fff;
+left: 20%;
+}
+.waystowatch-footer li{
+list-style: none;
+position: relative;
+left: 20%;
+
+padding: 10px 20px;
+}
+.waystowatch-footer li a{
+color: #fff;
+text-decoration: none;
+}
+.waystowatch-footer strong{
+position: relative;
+left: 18%;
+color: #fff;
+top: 30%;
+padding: 20px 20px;
+font-size: 17px;
+}
+

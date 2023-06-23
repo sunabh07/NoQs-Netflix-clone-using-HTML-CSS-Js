@@ -1,0 +1,113 @@
+    
+      *{
+        margin: 0;
+        padding: 0;
+      }  
+      body{
+        background-color: white;
+      }
+      .contactus-header{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        border: 2px solid black;
+        height: 100px;
+        width: 100%;
+      }
+      .contactus-logo{
+        position: relative;
+        left: 25%;
+        top: 10%;
+      }
+      .contactus-headitem{
+        position: relative;
+        left: 50%;
+        top: 10%;
+        font-size: 17px;
+      }
+      .contactus-headitem a{
+        text-decoration: none;
+        color: white;
+        margin: 10px 10px;
+        padding: 10px 15px;
+        border: 2px solid white;
+      }
+      #sign{
+        background-color: #db0001;
+      }
+
+
+     /*                                        SECTION                                   */
+
+
+     .contactus-section{
+        position: relative;
+        margin: 30px 20px;
+        left: 25%;
+        /* margin: auto; */
+        
+     }
+     .contactus-section h2{
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 50px;
+     }
+     .contactus-section-content p{
+        padding: 40px 0px;
+        font-size: 23px;
+        font-weight: bold;
+     }
+     .contactus-section-content p a{
+        text-decoration: none;
+        color: black;
+     }
+     .contactus-section-content p a:hover{
+        text-decoration: underline;
+        color: #db0001;
+     }
+
+     .contactus-section-item p{
+        padding: 20px 0px;
+        font-size: 21px;
+        font-weight: bold;
+
+
+     }
+     .contactus-link li{
+        list-style: none;
+        padding: 10px;
+        color:  #3e3c3c;
+        font-size: 20px;
+        
+    }
+    .contactus-link li a{
+        text-decoration: none;
+        font-size: 20px;
+        color: #3e3c3c;
+    }
+    .contactus-link li a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .horizontalline{
+        width: 50%;
+    }
+   
+
+    /*                                         FOOTER                                       */
+
+    .contactus-footer{
+        width: 100%;
+        height: 150px;
+        padding: 4px 0px;
+        background: linear-gradient(10deg,rgba(229,9,20,0) 58%,rgb(229,9,20) 128%),#000;
+    }
+    .contactus-footer ul li{
+        position: relative;
+        text-decoration: none;
+        margin: 5px 0px;
+        padding: 5px 0px;
+        color:rgba(255,255,255,.7);
+        left: 28%;
+        list-style: none;
+    }
