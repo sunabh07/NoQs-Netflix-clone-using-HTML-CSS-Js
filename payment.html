@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paypal</title>
+    <script src="https://www.paypal.com/sdk/js?client-id=AUjIA96jBaf6-89BxTqz7z6kCqUAy8CsWjlCDDga6reaIzYZB3Ms6Soo8xzfkoGdn-TpRoBt_11YinDk"></script>
+    <style>
+        #paypal-button-container{
+            position: relative;
+            top: 120px;
+            left: 360px;
+        }
+        .heading h1{
+            position: relative;
+            left: 32%;
+            font-size: 33px;
+            font-family: cursive;
+            color: #db0001;
+        }
+    </style>
+</head>
+<body>
+           <div class="header">
+            <a href="index.html"><img src="images/logo1.png" alt=""></a>
+           </div>
+      
+           <div class="heading">
+            <h1>Pay now and enjoy the experience</h1>
+           </div>
+   <div id="paypal-button-container"></div>
+
+
+</body>
+<script>
+    paypal.Buttons({
+        createOrder: function(data,actions){
+            return actions.order.create({
+                purchase_units: [{
+                    amount:{
+                        value:'500'
+
+                    }
+                }]
+            });
+        }
+
+    }).render('#paypal-button-container')
+</script>
+</html>
