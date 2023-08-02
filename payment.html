@@ -18,6 +18,19 @@
             font-family: cursive;
             color: #db0001;
         }
+        .next button{
+            position: relative;
+            top: 150px;
+            left: 37%;
+            width: 350px;
+            height: 40px;
+            background-color: #db0001;
+        }
+        .next button a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
@@ -29,8 +42,10 @@
             <h1>Pay now and enjoy the experience</h1>
            </div>
    <div id="paypal-button-container"></div>
-
-
+            <div class="next">
+                <button><a href="sign.html">Sign In</a></button>
+            </div>
+  
 </body>
 <script>
     paypal.Buttons({
@@ -38,7 +53,7 @@
             return actions.order.create({
                 purchase_units: [{
                     amount:{
-                        value:'500'
+                        value:'7.99'
 
                     }
                 }]
