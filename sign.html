@@ -91,9 +91,9 @@
     padding: 0px 0px;
      position: relative; 
     /* top: 510px; */
-    background-color:rgba(222, 98, 98, 0.95);
-    height: 30vh;
-    width: 100vw;
+    background-color:gray;
+    height: 150px;
+    width: 100%;
        }
        .signin-footer a{
         text-decoration: none;
@@ -101,7 +101,22 @@
         margin: 5px 6px;
         position: relative;
         top:28px;
+        color: #fff;
+        left: 20%;
+        font-size: 25px;
        }
+       #btn{
+        position: relative;
+        left: 17%;
+        border: 2px solid black;
+        padding: 0px 70px;
+        top: 5px;
+        background-color: #db0001;
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+       }
+       
 
     </style>
 </head>
@@ -112,13 +127,13 @@
         </div>
         <div class=" signin-mid">
             <h1>Sign In</h1>
-             <form action="https://script.google.com/macros/s/AKfycbxqhxDXB2Irf8fEQY9kwrRFptDAPqPB7QTck6w9--L0banG2cEy9tate-JQRIdid3mVbg/exec" method="post"> 
+             <form> 
             <div><input type="email" name="email" placeholder = "Email" ></div>
             <div><input type="password" name="password" placeholder="Password " >
             </div>
         
             <div>
-                <button class=" signin-btn">Sign In</button>
+                <a href="movie.html" id="btn">Sign In</a>
             </div>
         </form>
             
