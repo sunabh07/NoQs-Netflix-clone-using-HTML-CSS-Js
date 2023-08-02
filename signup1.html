@@ -31,6 +31,7 @@
             position: relative;
             margin: 19px 90px;
             padding: 30px 378px;
+            left: 10%;
         }
         .signup1-mid h2{
             font-size: 22px;
@@ -54,6 +55,27 @@
         .signup1-mid button:hover{
             background-color: rgb(173, 62, 62);
         }
+        form{
+            position: relative;
+            /* left: 30%; */
+        }
+        input[type="submit"]{
+            background-color: #db0001;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .payment p{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .payment a{
+            text-decoration: none;
+            color:#db0001;
+            font-size: 25px;
+
+        }
     </style>
 </head>
 <body>
@@ -67,7 +89,7 @@
         <p>Just a few more steps and you're done!
         We hate paperwork, too.</p>
     </div>
-<form action="https://script.google.com/macros/s/AKfycbxqhxDXB2Irf8fEQY9kwrRFptDAPqPB7QTck6w9--L0banG2cEy9tate-JQRIdid3mVbg/exec" method="post">
+<form action="https://script.google.com/macros/s/AKfycbzfvnNcAgiRQf9Wd3DIRrCmSODOieUpHO52Qt43ZWpBHTM758IIWF0A6HVfBI70gnfl/exec" method="post">
     <div>
         <input type="email" name="email" placeholder="Email">
     </div>
@@ -76,9 +98,13 @@
     </div>
     <br>
     <div>
-        <button>Next</button>
-    </div>
+        <input type="submit">
+   </div>
 </form>
+       <div class="payment">
+        <p>Let's Complete our <a href="payment.html">payment</a> !</p>
+        
+       </div>
     </div>
 </body>
 </html>
